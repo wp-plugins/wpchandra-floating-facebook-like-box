@@ -31,7 +31,7 @@ function wpchandra_floating_facebook_like_box_activate() { //add default setting
 	add_option( 'wp_facebook_like_box_settings_show', 'show', '', 'yes' );
 	add_option( 'wp_facebook_like_box_position', 'left', '', 'yes' );
 	add_option( 'wp_facebook_like_box_settings_mobile', 'show', '', 'show' );
-	add_option( 'wp_facebook_like_box_margin_top', '40%', '', 'yes' );
+	add_option( 'wp_facebook_like_box_margin_top', '30%', '', 'yes' );
 }
 
 function wpchandra_floating_facebook_like_box_deactivate() { //delete setting and values on deactivation
@@ -212,13 +212,14 @@ left: -315px;
 top: <?php echo get_option("wp_facebook_like_box_margin_top"); ?>;
 background: #FFF;
 border: 4px solid <?php echo get_option("wp_facebook_like_box_border_color"); ?>;
-z-index: 1000;
+  z-index: 99999;
 }
 #wpchandra_floating_fb_like_box .fb_animate_btn{
 position: absolute;
 right: -121px; color: #FFF;
 display: block;
-z-index: 1000;
+cursor:pointer;
+z-index: 99999;
 transform: rotate(90deg);
 -webkit-transform: rotate(90deg);
 -moz-transform: rotate(90deg);
@@ -246,29 +247,21 @@ right: -315px;
 top: <?php echo get_option("wp_facebook_like_box_margin_top"); ?>;
 background: #FFF;
 border: 4px solid <?php echo get_option("wp_facebook_like_box_border_color"); ?>;
-z-index: 1000;
+  z-index: 99999;
 }
 #wpchandra_floating_fb_like_box .fb_animate_btn{
 position: absolute;
 left: -121px; color: #FFF;
 display: block;
-z-index: 1000;
+  z-index: 99999;
+  cursor:pointer;
 transform: rotate(-90deg);
 -webkit-transform: rotate(-90deg);
 -moz-transform: rotate(-90deg);
 -o-transform: rotate(-90deg);
 filter: progid:DXImageTransform.Microsoft.Basic;
 top: 44%%;
-background: #FFF url('<?php echo plugins_url('images/fb.png', __FILE__); ?>
-	') no-repeat;
-	width: 164px;
-	height: 55px;
-	background-size: 163px;
-	right: -134px;
-	border-radius: 4px;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border: 2px solid #013E9D;
+background: #FFF url('<?php echo plugins_url('images/fb.png', __FILE__); ?>') no-repeat;width: 164px;height: 55px;background-size: 163px;right: -134px;border-radius: 4px;-webkit-border-radius: 4px;-moz-border-radius: 4px;border: 2px solid #013E9D;
 	}
 </style>
 
