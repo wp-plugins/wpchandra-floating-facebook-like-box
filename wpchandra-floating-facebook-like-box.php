@@ -27,7 +27,7 @@ function wpchandra_facebook_like_box_register_settings() { //register settings
 function wpchandra_floating_facebook_like_box_activate() { //add default setting values on activation
 	add_option( 'wp_facebook_like_box_title', 'FacebookDevelopers', '', 'yes' );
 	add_option( 'wp_facebook_like_box_appid', '', '', '' );
-	add_option( 'wp_facebook_like_box_border_color', '#F4F4F4', '', 'yes' );
+	add_option( 'wp_facebook_like_box_border_color', '#5478b0', '', 'yes' );
 	add_option( 'wp_facebook_like_box_settings_show', 'show', '', 'yes' );
 	add_option( 'wp_facebook_like_box_position', 'left', '', 'yes' );
 	add_option( 'wp_facebook_like_box_settings_mobile', 'show', '', 'show' );
