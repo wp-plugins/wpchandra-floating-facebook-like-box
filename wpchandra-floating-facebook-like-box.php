@@ -136,7 +136,7 @@ function wpchandra_floating_facebook_like_box_settings() { //facebook like box s
 		<p>
 			Comming soon...
 			<br />
-			More Inforrmation visit now <a href="http://wwww.wpchandra.com/" target="_blank">WPChandra.com</a>
+			More Inforrmation visit now <a href="http://wwww.wpchandra.com/wp-plugins" target="_blank">WPChandra.com</a>
 		</p>
 
 		<?php } ?>
@@ -234,6 +234,7 @@ background: #FFF url('<?php echo plugins_url('images/fb.png', __FILE__); ?>
 	border-radius: 4px;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
+	border: 2px solid #013E9D;
 	}
 </style>
 <?php } else{ ?>
@@ -267,6 +268,7 @@ background: #FFF url('<?php echo plugins_url('images/fb.png', __FILE__); ?>
 	border-radius: 4px;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
+	border: 2px solid #013E9D;
 	}
 </style>
 
