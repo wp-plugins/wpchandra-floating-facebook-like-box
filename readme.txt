@@ -1,4 +1,4 @@
-=== WPChandra Floating Facebook Like Box ===
+=== Floating Facebook Like Box ===
 Contributors:wp-chandra,chandgiri67
 Tags: Facebook Like Box, WPChandra, Social Media, Likebox, Floating
 Requires at least: 3.0.1
