@@ -7,10 +7,24 @@ Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-WPChandra Floating Facebook like box for wordpress is plugin that allow you to customize facebook like box with animation easily.
+Wordpress Floating Facebook like box for wordpress is plugin that allow you to customize facebook like box with animation easily.
 
 == Description ==
-WPChandra Floating Facebook like box for wordpress is plugin that allow you to customize facebook like box with animation easily.
+
+Wordpress Floating Facebook like box for wordpress is plugin that allow you to customize facebook like box with animation easily.
+
+### About
+
+* [The plugin designed and developed by Chandrakesh Kumar.](https://profiles.wordpress.org/chandrakeshkumar/#content-plugins)
+* [Chandrakesh Kumar on Facebook.](https://www.facebook.com/chandrakesh.kumar.giri)
+* [Chandrakesh Kumar on Twitter.](https://twitter.com/chanderkeshgiri)
+* [LinkedIn on Twitter.](http://in.linkedin.com/in/chanderkeshgiri)
+
+
+### More Plugins
+
+* [My Plugins](https://profiles.wordpress.org/chandrakeshkumar/#content-plugins)
+
 
 == Screenshots ==
 1. Fill facebook appid and change other default settings!
