@@ -13,6 +13,15 @@ Wordpress Floating Facebook like box for wordpress is plugin that allow you to c
 
 Wordpress Floating Facebook like box for wordpress is plugin that allow you to customize facebook like box with animation easily.
 
+The Floating Facebook Like Box lets you display on your website.
+
+<strong>You can set it up by following these steps:</strong>
+
+Go to Settings > WPChandra Facebook Like Box Settings in your WordPress Dashboard.
+Fill out the options, including your Facebook Page URL.
+Click "Save" to save your changes.
+The facebook like box display on left or right side.
+
 ### About
 
 * [The plugin designed and developed by Chandrakesh Kumar.](https://profiles.wordpress.org/chandrakeshkumar/#content-plugins)
