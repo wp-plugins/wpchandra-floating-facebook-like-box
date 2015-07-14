@@ -1,5 +1,6 @@
 === Floating Facebook Like Box ===
-Contributors:wp-chandra,chandgiri67
+Contributors:chandrakeshkumar, wp-chandra,chandgiri67
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KZUB32FZNMM3U
 Tags: Facebook Like Box, WPChandra, Social Media, Likebox, Floating
 Requires at least: 3.0.1
 Tested up to: 4.1.1
