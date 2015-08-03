@@ -6,7 +6,7 @@ Description: Floating Facebook like box for wordpress is plugin that allow you t
 Version: 1.1
 Author: Chandrakesh Kumar 
 Author URI: http://www.wpchandra.com/
-License: GPL2
+License: GPL2 
 */ 
 
 function wpchandra_floating_facebook_like_box_admin_menu() { 
