@@ -7,7 +7,7 @@ Version: 1.1
 Author: Chandrakesh Kumar 
 Author URI: http://www.wpchandra.com/ 
 License: GPL2     
-*/  
+*/   
 
 function wpchandra_floating_facebook_like_box_admin_menu() { 
 	add_menu_page('WPChandra Facebook Like Box Settings', 'WP FB Like Box', 'administrator', __FILE__, 'wpchandra_floating_facebook_like_box_settings',plugins_url('/images/facebook.png', __FILE__));
@@ -292,7 +292,7 @@ if ( !wp_is_mobile() ) {
 		<iframe name="f1c056eb38" frameborder="0" allowtransparency="true" scrolling="no" title="fb:like_box Facebook Social Plugin" src="http://www.facebook.com/v2.0/plugins/like_box.php?app_id=<?php echo get_option('wp_facebook_like_box_appid'); ?>&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2F6Dg4oLkBbYq.js%3Fversion%3D41%23cb%3Df2a5f9b40%26domain%3Dlocalhost%26origin%3Dhttp%253A%252F%252Flocalhost%253A7777%252Ff17aa3346c%26relation%3Dparent.parent&amp;color_scheme=light&amp;container_width=250&amp;header=false&amp;href=https://www.facebook.com/<?php echo get_option('wp_facebook_like_box_title'); ?>&amp;locale=en_US&amp;sdk=joey&amp;show_border=false&amp;show_faces=true&amp;stream=false" style="border: none; visibility: visible; width: 300px; height:270px" class=""></iframe>
 	</div>
 </div>
-
+ 
 <?php
 }
 } }else{ echo "<script> alert('facebook appid is required!'); </script>"; } }
